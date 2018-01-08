@@ -45,7 +45,6 @@ public:
 private:
 	// see constrictor for initialisation
 	int32 MyCurrentTry = 0;
-	int32 MyMaxTries	= 0;
 	FString MyHiddenWord = "";
 	bool bGameIsWon;
 
