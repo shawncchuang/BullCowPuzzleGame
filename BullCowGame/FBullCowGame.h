@@ -1,10 +1,13 @@
+/* The game logic  (no view code or  direct  interaction)
+The gamer is a simple guess the word game based on Matermind
+*/
 #pragma once
 #include <string>
 
+// to make syntax Unreal friendly 
 using FString = std::string;
 using int32 = int;
 
-// all values initialized to 0
 struct FBullCowCount
 {
 	int32 Bulls = 0;
